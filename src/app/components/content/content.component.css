@@ -1,0 +1,43 @@
+/* Estilos generales para las cards */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover para las cards */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de la imagen de las cards */
+.card-img-top {
+  border-radius: 15px 15px 0 0;
+}
+
+/* Estilo de los títulos de las cards */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #2c284a;
+}
+
+/* Estilo del texto en las cards */
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Espaciado entre las cards */
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+/* Asegurar que en pantallas grandes haya 3 cards por fila */
+@media (min-width: 990px) {
+  .card-columns {
+    column-count: 3;
+    column-gap: 1.5rem;
+  }
+}
