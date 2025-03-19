@@ -4,6 +4,7 @@
   align-items: center;
   background: linear-gradient(90deg, #0072ff, #00c851);
   padding: 15px 20px;
+  z-index: 10;
 }
 .navbar h1 {
   color: white;

@@ -7,6 +7,8 @@
   background: #2c284a;
   padding-top: 20px;
   transition: all 0.3s;
+  z-index: -10;
+  padding-top: 100px;
 }
 #sidebar a {
   color: white;
